@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-css-reset/dist/reset.min.css"/>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+    <div class="container"> 
+    <header>
+        <h1>Contact - The Lorem Ipsum</h1>
+        <nav>
+            <a href="index.html">Headlines</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <form action="thanks.html" method="post">
+          <fieldset>
+            <legend>Personal</legend>
+            <label>Name
+                <input type="text" name="name" required>
+            </label>
+
+            <label>Email
+                <input type="text" name="email" required>
+            </label>
+            <label>Country
+                <select name="country">
+                    <option value="">(select one)</option>
+                    <option value="1">(sweden)</option>
+                    <option value="2">(denmark)</option>
+                    <option value="3">(norway)</option>
+                </select>
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Select</legend>
+            What department do you want to contact?
+            <label>news
+                <input type="checkbox">
+                 </label>
+            <label>Sports
+                <input type="checkbox">
+                </label>
+                <p>Do you want a reply?</p>
+                <label>yes
+                    <input name="reply" type="radio">
+                </label>
+                <label>no
+                    <input name="reply" type="radio">
+                </label>
+        </fieldset>
+        <div class="send"> 
+        <input type="submit">
+    </div>
+    </form>
+    </main>
+   
+    <footer> <img src="img/sun.png" alt="mini sun"> london 19&#176; </footer>
+    </div>
+</body>
+</html>

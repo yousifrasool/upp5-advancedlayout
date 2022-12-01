@@ -1,0 +1,89 @@
+/*https://coolors.co/8e5572-f2f7f2-c2b97f-bcaa99-88665d*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{ 
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: #F2F7F2;
+    width: 80vw;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    background-color: #88665D;
+    padding-top: 0px;
+   
+
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+   
+
+}
+
+header nav a{
+    text-decoration: none;
+    color:  #88665D;
+    background-color: #F2F7F2;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-align: center;
+}
+header nav a:hover {
+    
+    color: blue;
+    background-color: #BCAA99;
+}
+
+
+footer{
+    background-color: #88665D;
+    color:  #F2F7F2;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+
+}
+
+.send{ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+      
+}
+
+label{
+    display: block;
+    padding-bottom: 8px;
+}
+
+@media(min-width:650px){
+   form{ 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+.send{
+     grid-column: span 2;
+}
+   
+}
